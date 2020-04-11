@@ -1,0 +1,59 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    width: 400px;
+    background-color: black;
+    color: white;
+}
+
+.button {
+    font-size: 40px;
+    font-weight: 700;
+    padding: 20px 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 0;
+    border-radius: 0;
+    cursor: pointer;
+    width: 24.5%;
+    margin: 2px;
+}
+
+.button:hover {
+    background-color: teal;
+}
+
+.button:active {
+    background-color: tomato;
+}
+
+.row {
+    display: flex;
+}
+
+.number {
+    background-color: grey;
+}
+
+.function {
+    background-color: orange;
+}
+
+.result {
+    text-align: right;
+    flex-grow: 1;
+    font-size: 40px;
+    font-weight: 700;
+    padding: 20px 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.two {
+    width: 204px;
+}
